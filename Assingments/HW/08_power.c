@@ -3,12 +3,12 @@
 #include <math.h>
 int main()
 {
-  float num, exponent;
+  float base, exponent;
   printf("enter number : ");
-  scanf("%f", &num);
+  scanf("%f", &base);
   printf("enter exponent : ");
   scanf("%f", &exponent);
-  float power = pow(num, exponent);
-  printf("%2.f to the power %2.f is = %.2f", num, exponent, power);
+  float power = pow(base, exponent);
+  printf("%2.f to the power %2.f is = %.2f", base, exponent, power);
   return 0;
 }
