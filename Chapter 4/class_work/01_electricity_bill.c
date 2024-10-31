@@ -7,7 +7,7 @@
 int main()
 {
   int unit;
-  printf("enter number : ");
+  printf("enter units : ");
   scanf("%d", &unit);
   double bill, bill_tax;
   //  • For the first 50 units Rs. 0.50/unit
@@ -42,6 +42,7 @@ int main()
     bill_tax = total_bill * 0.15;
   double final_bill = total_bill + bill_tax;
   printf("\n|---------Electricity Bill Amount-----------|\n");
+  printf("for %d units", unit);
   printf("\nthe final bill amount : %.2lf rs\n", final_bill);
   printf("\nbill before adding sub-charges : %.2lf rs\n", bill);
   printf("the sub-charge amount : %.2lf rs\n", sub_charge);
