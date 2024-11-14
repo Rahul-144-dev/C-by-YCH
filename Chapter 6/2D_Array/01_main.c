@@ -2,7 +2,11 @@
 int main()
 {
   //* Compile time Initialization
-  int x[3][2] = {{21, 42}, {23, 54}, {65, 26}}; // declaration and initialization at same time
+  int x[3][2] = {
+      {21, 42}, // row = 1
+      {23, 54}, // row = 2
+      {65, 26}  // row = 3
+  }; // declaration and initialization at same time
 
   int a[3][2]; // only declaration
   printf("Enter elements of Array\n");

@@ -11,5 +11,6 @@
   "explorerExclude.backup": {},
   "files.associations": {
     "stdio.h": "c"
-  }
+  },
+  "workbench.colorTheme": "Nox Noctis (amoled)"
 }

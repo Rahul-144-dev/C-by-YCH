@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-  int num, rem, rev = 0;
+  int num, rem;
   printf("enter number : ");
   scanf("%d", &num);
   while (num != 0)
   {
-    rev = num % 10;
-    rem = rev + 10 * rem;
+    rem = rem * 10;
+    rem = rem + (num % 10);
     num /= 10;
   }
-  printf("%d", rem);
+
   return 0;
 }
