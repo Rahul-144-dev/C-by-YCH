@@ -5,6 +5,12 @@ int main()
   int *p = &a;
   int *q = &b;
   c = *q;
-  printf("a = %d\n", *p);
+  
+  *p = 20;
+  
+  printf("value of a = %d\n", a);
+  printf("value of c = %d\n", c);
+  printf("value of p = %d\n", *p);
+  printf("address of p = %p\n", *p);
   return 0;
 }
